@@ -2,8 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 1. Load the data into a Pandas DataFrame
-# Assuming the data is in a CSV file named "sales_data.csv"
-# You can replace this with the actual path to your data file
+# Data file name is"sales_data.csv"
 try:
     df = pd.read_csv("sales_data.csv")
 except FileNotFoundError:
